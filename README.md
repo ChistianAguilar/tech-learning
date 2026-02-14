@@ -8,7 +8,7 @@ Consolidar y profundizar conocimientos en cada tecnología, partiendo desde los 
 
 ## Ruta de Aprendizaje
 
-| # | Tecnología | Descripción | Estado |
+| :) | Tecnología | Descripción | Estado |
 |---|-----------|-------------|--------|
 | 01 | [Python](01-python/) | Fundamentos y buenas prácticas |  En progreso |
 | 02 | [HTML & CSS](02-html-css/) | Estructura y estilos web |  Pendiente |
