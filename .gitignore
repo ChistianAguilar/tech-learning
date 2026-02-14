@@ -1,0 +1,34 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de uv
+.python-version
+
+# Django
+*.sqlite3
+/staticfiles/
+/mediafiles/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Variables de entorno (datos sensibles)
+.env
+
+# Archivos de prueba
+*.log
