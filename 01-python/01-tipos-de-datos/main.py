@@ -1,5 +1,3 @@
-
-
 # 1. STRING (Texto)
 nombre = "leba"
 print(f"Variable: nombre = '{nombre}'")

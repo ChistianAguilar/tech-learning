@@ -6,7 +6,7 @@ Sección dedicada a consolidar y profundizar conocimientos de Python,desde los t
 
 | # | Proyecto | Conceptos | Estado |
 |---|---------|-----------|--------|
-| 01 | [Tipos de Datos](01-tipos-de-datos/) | int, float, str, list, dict, tuple |  Pendiente |
+| 01 | [Tipos de Datos](01-tipos-de-datos/) | int, float, str, list, dict, tuple |  Completado |
 | 02 | [Funciones y Módulos](02-funciones-y-modulos/) | funciones, imports, módulos propios |  Pendiente |
 | 03 | [POO](03-poo/) | clases, herencia, encapsulamiento |  Pendiente |
 | 04 | [Manejo de Errores](04-manejo-de-errores/) | try/except, excepciones propias |  Pendiente |
