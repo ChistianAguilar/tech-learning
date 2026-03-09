@@ -10,7 +10,7 @@ Sección dedicada a consolidar y profundizar conocimientos de Python,desde los t
 | 02 | [Funciones y Módulos](02-funciones-y-modulos/) | funciones, imports, módulos propios |  Completado |
 | 03 | [POO](03-poo/) | clases, herencia, encapsulamiento |  Completado |
 | 04 | [Manejo de Errores](04-manejo-de-errores/) | try/except, excepciones propias |  Completado |
-| 05 | [Archivos y JSON](05-archivos-y-json/) | leer/escribir archivos, trabajar con JSON |  Pendiente |
+| 05 | [Archivos y JSON](05-archivos-y-json/) | leer/escribir archivos, trabajar con JSON |  Completado |
 
 # Herramienta
 
