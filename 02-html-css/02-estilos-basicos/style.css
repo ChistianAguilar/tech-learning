@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(188, 176, 176);
+}
+
+#titulo-principal {
+    color: rgb(153, 255, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo-1-rojo{
+    color: red;
+}
+
+.parrafo-2{
+    color: green;   
+}
+
+#titulo-2 {
+    color: blueviolet;
+    position: relative; /* Le damos una posición relativa */
+    animation: moverTitulo 5s infinite alternate; /* le damos una animación de 5s */
+}
+
+/* Esto hacer el titulo se mueva de izquierda a derecha */
+@keyframes moverTitulo {
+     from { left: 0; }
+    to { left: 100px;} 
+}
+
+.parrafo-3{
+    color: blue;
+}
+
+.parrafo-4{
+    color: yellow;
+}
+
+
+.parrafo-5{
+    color: pink;
+}

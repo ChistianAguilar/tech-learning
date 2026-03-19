@@ -1,0 +1,28 @@
+/* modificación para selector descendente  */
+/* Se van a modifiacar los dos primero párrafos que estan dentro del div */
+.div-1 p{
+    color: crimson;
+}
+
+/* Solo afecta p que sean hijos directos del div  */
+.div-2 > p{
+    color: blue;
+} 
+
+/* Aplica el mismo estilo a varios elementos */
+
+h1, h2, h3{
+    color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cambia de estilo cuando pasas el mouse encima */
+
+a:hover {
+    color: rgb(255, 17, 0);
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: yellow;
+}
