@@ -1,0 +1,167 @@
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: coral;
+}
+
+/* ----- Los flex ----- */
+
+.flex-row{
+
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  
+}
+
+.flex-column{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+
+}
+
+/* ----- Los justify-content ----- */
+
+.jc-flex-start{
+
+  display: flex;
+  justify-content: flex-start;
+  gap:20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.jc-center{
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.jc-flex-end{
+
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.jc-space-between{
+
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.jc-space-around{
+  
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.jc-space-evenly{
+  
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+/* ----- Los Aling-items ----- */
+
+.ai-flex-start{
+
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  height: 150px; /* La altura es necesaria para que se puedan alinear correctamente */
+
+}
+
+.ai-center{
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  height: 150px;
+
+}
+
+.ai-flex-end{
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  height: 150px;
+
+}
+
+.ai-stretch{
+
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+  height: 150px;
+
+}
+
+
+/* Los gap */
+
+.gap-small {
+  display: flex;
+  gap: 10px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.gap-medium {
+  display: flex;
+  gap: 30px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.gap-large {
+  display: flex;
+  gap: 50px;
+  background-color: lightgray;
+  border: 2px solid gray;
+  margin-bottom: 20px;
+}

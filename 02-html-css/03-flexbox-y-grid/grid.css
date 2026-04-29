@@ -1,0 +1,87 @@
+/* Estilos generales */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px ;
+    background-color: #f5f5f5;
+
+}
+
+section{
+
+    margin-bottom: 15px ;
+    color: #333;
+
+}
+
+.item {
+
+    background-color: #4a90d9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+/* Grid simple: 3 columnas x 2 filas */
+
+.grid-simple {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+
+}
+
+/* Grid con columnas de diferentes tamaños */
+
+.grid-sizes{
+
+    display: grid;
+    /* primera columna: 100px, segunda: 200px, tercera 1fr resto de la pantalla */
+    grid-template-columns: 100px 200px 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+
+}
+
+/* Grid con gap */
+
+.grid-gap{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px;
+
+}
+
+/* elemento que ocupa varias celdas */
+.grid-span{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    gap: 10px;
+
+}
+
+.grid-span .item:nth-child(1) {
+    grid-column: span 2; /* Ocupa 2 columnas */
+}
+
+.grid-span .item:nth-child(5) {
+    grid-row: span 2; /* Ocupa 2 filas */
+}
