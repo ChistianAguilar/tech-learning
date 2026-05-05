@@ -9,9 +9,9 @@ desde los fundamentos hasta crear una página completa.
 |---|---------|-----------|--------|
 | 01 | [Estructura HTML](01-estructura-html/) | Etiquetas básicas, semántica, formularios | Completado |
 | 02 | [Estilos Básicos](02-estilos-basicos/) | Selectores, colores, fuentes, box model | Completado |
-| 03 | [Flexbox y Grid](03-flexbox-y-grid/) | Layouts modernos, diseño responsivo | completado |
-| 04 | [Formularios](04-formularios/) | Inputs, validación, estilos | Pendiente |
-| 05 | [Página Completa](05-pagina-completa/) | Portfolio personal con todo lo aprendido | Pendiente |
+| 03 | [Flexbox y Grid](03-flexbox-y-grid/) | Layouts modernos, diseño responsivo | Completado |
+| 04 | [Formularios](04-formularios/) | Inputs, validación, estilos | Completado |
+| 05 | [Página Completa](05-pagina-completa/) | Portfolio personal con todo lo aprendido | En Progreso |
 
 ## Herramientas
 

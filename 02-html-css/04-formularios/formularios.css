@@ -1,0 +1,122 @@
+/* Estilos generales para el formulario de registro */
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    padding: 24px;
+}
+
+form {
+    width: min(530px, 100%);
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 16px;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+    overflow: hidden;
+}
+
+fieldset {
+    border: none;
+    padding: 32px 28px 28px;
+}
+
+legend {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #111827;
+    text-align: center;
+    width: 100%;
+}
+
+fieldset > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+label {
+    font-weight: 600;
+    color: #334155;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px 4px;
+    border: 1px solid #cbd5e1;
+    border-radius: 12px;
+    background: #f8fafc;
+    color: #0f172a;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.16);
+    background: #ffffff;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #2563eb;
+}
+
+fieldset > div:nth-last-child(2) {
+    gap: 10px;
+}
+
+fieldset > div:nth-last-child(2) label {
+    margin-bottom: 8px;
+}
+
+fieldset > div:nth-last-child(2) input {
+    margin-right: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 14px 18px;
+    border: none;
+    border-radius: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 560px) {
+    body {
+        padding: 16px;
+    }
+
+    fieldset {
+        padding: 24px 20px 20px;
+    }
+}
