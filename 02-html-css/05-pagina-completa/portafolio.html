@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Christian</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Christian Aguilar</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- con main indico que este es el nucleo de la pagina -->
+    <main> 
+        <!-- seccion 1 -->
+        <section id="sobre-mi">
+            <div>
+                <h2>Sobre mi</h2>
+                <p>!Hola! Soy Christian, un desarrollador en formación. Me apasiona la tecnología y aprender cosas nuevas</p>
+            </div>
+        </section>
+
+        <!-- seccion 2 -->
+        <section id="habilidades">
+            <h2>Habilidades Tecnicas</h2>
+            <div class="grid-habilidades">
+                <div class="card-skill">Linux Basico</div>
+                <div class="card-skill">Git y GitHub</div>
+                <div class="card-skill">Python basico</div>
+            </div>
+        </section>
+
+        <!-- seccion 3 -->
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <div class="grid-proyectos">
+                <!-- Articulo 1 -->
+                <article class="card-proyectos">
+                    <h3>Proyecto 1</h3>
+                    <p>Aplicación web construida con Django y Django REST Framework para demostrar, como trabajo práctico de carrera.</p>
+                    <a href="https://github.com/ChistianAguilar/ProyectoTaller">Ver mas</a>
+                </article>
+
+                <!-- Articulo 2 -->
+                <article class="card-proyectos">
+                    <h3>Proyecto 2</h3>
+                    <p>Repositorio personal de aprendizaje donde documento mi progreso aprendiendo las tecnologías que utilicé en mi primer proyecto real.</p>
+                    <a href="https://github.com/ChistianAguilar/tech-learning">Ver mas</a>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- seccion 4 -->
+        <section id="contacto">
+            <h2>Contactos</h2>
+            <form>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <textarea placeholder="Escribe tu mensaje aquí" rows="4" required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tu Nombre. Todos los derechos reservados.</p>
+        <div class="redes">
+            <a href="https://github.com/ChistianAguilar">GitHub</a>
+            <a href="https://www.linkedin.com/in/christian-aguilar-22994633b/">LinkedIn</a>
+        </div>
+    </footer>
+
+</body>
+</html>

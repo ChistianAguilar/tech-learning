@@ -11,8 +11,8 @@ Consolidar y profundizar conocimientos en cada tecnología, partiendo desde los 
 | :) | Tecnología | Descripción | Estado |
 |---|-----------|-------------|--------|
 | 01 | [Python](01-python/) | Fundamentos y buenas prácticas |  Completado |
-| 02 | [HTML & CSS](02-html-css/) | Estructura y estilos web |  En progreso |
-| 03 | [JavaScript](03-javascript/) | Interactividad y consumo de APIs |  Pendiente |
+| 02 | [HTML & CSS](02-html-css/) | Estructura y estilos web |  Completado |
+| 03 | [JavaScript](03-javascript/) | Interactividad y consumo de APIs |  En Progreso |
 | 04 | [Django](04-django/) | Framework web de Python |  Pendiente |
 | 05 | [Bases de Datos](05-bases-de-datos/) | SQLite y Django ORM |  Pendiente |
 | 06 | [Django REST Framework](06-django-rest-framework/) | Construcción de APIs |  Pendiente |

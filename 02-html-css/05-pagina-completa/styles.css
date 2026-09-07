@@ -1,0 +1,80 @@
+/* Desplazamiento suave al hacer clic en el menú */
+html {
+    scroll-behavior: smooth;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navegación fija */
+header {
+    position: sticky;
+    top: 0;
+    background: #286e19;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+section {
+    padding: 4rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Grids de Habilidades y Proyectos */
+.grid-habilidades, .grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.card-skill, .card-proyectos {
+    border: 1px solid #e2e8f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: #f8fafc;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #286e19;
+    color: white;
+}
+
+footer a {
+    color: #38bdf8;
+    margin: 0 0.5rem;
+}

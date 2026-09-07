@@ -11,7 +11,7 @@ desde los fundamentos hasta crear una página completa.
 | 02 | [Estilos Básicos](02-estilos-basicos/) | Selectores, colores, fuentes, box model | Completado |
 | 03 | [Flexbox y Grid](03-flexbox-y-grid/) | Layouts modernos, diseño responsivo | Completado |
 | 04 | [Formularios](04-formularios/) | Inputs, validación, estilos | Completado |
-| 05 | [Página Completa](05-pagina-completa/) | Portfolio personal con todo lo aprendido | En Progreso |
+| 05 | [Página Completa](05-pagina-completa/) | Portfolio personal con todo lo aprendido | Completado |
 
 ## Herramientas
 
